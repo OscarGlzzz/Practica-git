@@ -1,0 +1,55 @@
+body{
+    background: lightgoldenrodyellow;
+    text-align: justify;
+    width: 50%;
+    margin: 0px auto;
+    border: 1px solid black;
+}
+h2{
+    text-align: center;
+}
+
+header{
+    font-style: italic;
+    text-align: center;
+}
+
+table{
+    width: auto;
+    border: solid 1px #ccc;
+    border-collapse: collapse;
+}
+.default thead tr{
+    background: black;
+    color: white;
+}
+
+.default th,
+.default td{
+border-right: 1px solid #ccc;
+}
+.default td{
+    border-bottom: 1px solid #ccc;
+}
+
+a:link {  
+    color: red;  
+    text-decoration: none;
+}  
+   a:visited {  
+    color: gray;  
+    text-decoration: none;
+}  
+   a:active {  
+    text-decoration: none  
+    }  
+   a:hover {  
+    font-size: 20px;
+    color: blue;  
+    background-color: yellow;  
+    text-decoration: underline;
+}  
+img{
+    margin: auto;
+    display: block;
+}
